@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #F6F0F6;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    margin: 30px 80px;
+    display: flex;
+}
+
+:root{
+    --primary_color: #FF5588;
+}
+.Portfolio-data{
+    width: 40%;
+}
+
+.Portfolio-img img{
+   width: 360px;
+   border-radius: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 9px;
+}
+.Portfolio-data button{
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-left:150px ;
+}
+
+.Portfolio-data button:hover{
+    cursor: pointer;
+    background-color: #FF5588;
+}
+.Portfolio-text{
+    margin-left: 90px;
+}
+.Portfolio-text span{
+    color: #FF5588;
+    font-size: 20px;
+}
+.Portfolio-text h1{
+    font-size: 40px;
+    margin: 10px 0px;
+}
+.Portfolio-text p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+
+.Experience-no h1{
+   color: var(--primary_color);
+   text-align: center;
+}
+
+.about-sec{
+    margin: 170px 0px;
+}
+.about-sec h4 {
+   color: var(--primary_color);
+   font-size: 24px;
+   font-weight: 400;
+}
+.about-sec h2{
+    font-size: 40px;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+.about-sec p{
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Career-section */
+.Career-sec h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary_color);
+}
+
+.Career-sec h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.date-sec span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.date-sec h1{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 3px 0px;
+}
+
+.date-sec-2{
+    margin: 30px 0px;
+}
+
+.date-sec-2 span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.date-sec-2 h1{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 3px 0px;
+}
+/* services-section */
+
+.services-sec{
+    margin: 99px 0px;
+}
+.services-sec h2{
+    font-size: 24px;
+    font-weight: 400;
+    color:var(--primary_color);
+}
+
+.services-sec h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #181818; 
+}
+
+.cards{
+    display: flex;
+}
+.card{
+    border: 1px solid #FF5588;
+    border-radius: 15px;
+    padding: 15px 25px;
+}
+.card h1{
+    font-size: 15px;
+    font-weight: 500;
+    color:#181818; 
+    margin: 0px;
+}
+.card p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#333333; 
+}
+
+.card-2{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    margin: 0px 30px;
+}
+.card-2 h1{
+    font-size: 20px;
+    font-weight: 400;
+    color:#181818; 
+    margin: 0px;
+}
+.card-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#333333; 
+}
+
+.card-3{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+}
+.card-3 h1{
+    font-size: 20px;
+    font-weight: 400;
+    color:#181818; 
+    margin: 0px;
+}
+.card-3 p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#333333;
+}
+
+/* skill section */
+.skill-sec h2{
+    font-size: 24px;
+    font-weight: 400;
+    color:var(--primary_color);
+}
+.skill-sec h1{
+    font-size: 40px;
+    font-weight: 400;
+    color:#181818;
+}
+.icons-sec{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+}
+.Portfolio-sec{
+    margin: 130px 0px;
+}
+.Portfolio-sec h2{
+    font-size: 24px;
+    font-weight: 400;
+    color:var(--primary_color);
+}
+.Portfolio-sec h1{
+    font-size: 40px;
+    font-weight: 400;
+    color:#181818;
+}
+.Portfolio-sec img{
+    border-radius: 15px;
+    padding: 3px 1px;
+}
+
+/* client section */
+.testmail-sec h2{
+    font-size: 20px;
+    font-weight: 400;
+    color:var(--primary_color);
+}
+.testmail-sec h1{
+    font-size: 35px;
+    font-weight: 400;
+    color:#181818;
+}
+.client-data{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px 50px;
+    align-items: center;
+    width: 60%;
+}
+.client-data p{
+    font-size: 15px;
+    font-weight: 400;
+    color:#181818;
+    margin-top: 20px;
+}
+.client-bio{
+    display: flex;
+}
+.client-text{
+    
+    margin-left: 40px;
+}
+.client-text h1{
+    font-size: 24px;
+    font-weight: 600;
+    color:#181818;
+}
+.client-text span{
+    font-size: 14px;
+    font-weight: 400;
+    color:#181818;
+}
+ 
+/* Brand section */
+.brand-sec{
+    margin: 130px 0px;
+}
+.brand-sec span{
+    font-size: 20px;
+    font-weight: 400;
+    color:var(--primary_color);
+}
+.brand-sec h1{
+    font-size: 30px;
+    font-weight: 400;
+    color:#181818;
+}
+.brand-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+/* contact-sec */
+.contact{
+    font-size: 24px;
+    font-weight: 400;
+    color:var(--primary_color);
+    margin-bottom: 20px;
+}
+
+.form-input{
+    margin: 40px 0px;
+}
+.form-input input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #e0dddd;
+    width: 400px;
+    padding: 5px 7px;
+}
+.form-input input:focus{
+    outline: none;
+}
+.form-textarea textarea{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #e0dddd;
+    width: 400px;
+    padding: 5px 10px;
+}
+.form-textarea textarea:focus{
+    outline: none;
+}
+.hire-btn{
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 10px 35px;
+}
+.hire-btn:hover{
+    cursor: pointer;
+    background-color: #FF5588;
+}
